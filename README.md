@@ -1,5 +1,14 @@
 # Product-developer-test
 
+## Developer comments
+* Modernizr added to index.html
+* Missing HTML elements also added
+* Foundation framework sccs files added to scss folder
+* New style.css file built (normalize + foundation parts concatenated) 
+* Inset box shadow added to buttons (_buttons.scss)
+* Some variables have overwritten with new values in (_settings.scss)
+* Custom scss files added to scss folder
+
 Necessary files for this assignment are on Github, and can be downloaded via 
 git clone git@github.com:gawkermedia/product-developer-test.git
 
@@ -15,12 +24,3 @@ git clone git@github.com:gawkermedia/product-developer-test.git
 * Build the form of the modal
 * Modify button and text field styles to match the design
 
-# Developer comments
-
-* Modernizr added to index.html
-* Missing HTML elements also added
-* Foundation framework sccs files added to scss folder
-* New style.css file built (normalize + foundation parts concatenated) 
-* Inset box shadow added to buttons (_buttons.scss)
-* Some variables have overwritten with new values in (_settings.scss)
-* Custom scss files added to scss folder
