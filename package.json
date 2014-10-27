@@ -1,0 +1,20 @@
+{
+  "name": "GSZABO_SPD",
+  "version": "1.0.1",
+  "author": "Gabor Szabó <szabogabi@gmail.com>",
+  "scripts": {
+    "postinstall": "grunt dev"
+  },
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-autoprefixer": "~1.0.1",
+    "grunt-contrib-watch": "~0.6.1",
+    "load-grunt-tasks": "~0.6.0",
+    "time-grunt": "~0.4.0",
+    "grunt-sass": "~0.16.0",
+    "grunt-notify": "~0.3.1"
+  }
+}

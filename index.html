@@ -1,0 +1,130 @@
+<!doctype html>
+<html class="no-js" lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Kinja | Foundation Test</title>
+<!-- 
+		<link rel="stylesheet" href="css/normalize.css" />
+		<link rel="stylesheet" href="css/foundation.css" />
+-->
+		<link rel="stylesheet" href="css/style.css" />
+		<script src="js/vendor/modernizr.js"></script>
+	</head>
+	<body>
+
+		<div class="fixed">
+
+			<nav class="top-nav" role="navigation">
+				<div class="row">
+					<div class="large-12 columns">
+						<a href="#" class="logintoggle right" data-reveal-id="modal--login">Login</a>
+						<span class="blocklabel">nav</span>
+					</div>
+				</div>
+			</nav>
+		</div>
+
+		<div class="row">
+			<div class="large-12 columns">
+				<div class="ad ad--top"><span class="blocklabel">ad</span></div>
+			</div>
+		</div>
+
+		<div class="row">
+			
+			<aside class="sidebar large-4 columns">			
+				
+				<div class="row">
+				
+					<div class="medium-6 large-12 columns">	
+						
+						<div class="ad ad--sidebar">
+							<span class="blocklabel">ad</span>
+						</div>			
+						
+						<div class="sidebar__search row">
+							<form class="clearfix">
+								<div class="small-8 columns">
+									<input class="radius" type="search" placeholder="Search">
+								</div>
+								<div class="small-4 columns">
+									<a href="#" class="button gawker radius tiny right">Go</a>
+								</div>
+							</form>
+						</div>
+					</div>
+
+					<div class="medium-6 large-12 columns">
+						<div class="sidebar__content"><span class="blocklabel">content</span></div>
+					</div>
+				
+				</div>
+				
+				
+			</aside>
+			
+			
+			<div class="main large-8 columns" role="document">
+				<article class="main__content" role="main"><span class="blocklabel">content</span></article>
+				
+				<div class="main__widgetblock row">
+					<div class="medium-6 columns">
+						<aside class="widget widget--pri"><span class="blocklabel">aside</span></aside>
+					</div>
+					<div class="medium-6 columns">
+							<aside class="widget widget--sec"><span class="blocklabel">aside</span></aside>	
+					</div>
+				</div>
+			
+			</div>
+		
+		</div>
+
+		<div class="row">
+			<div class="large-12 columns">
+				<div class="ad ad--bottom"><span class="blocklabel">ad</span></div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="large-12 columns">
+				<footer class="site-footer" role="content-info">
+					<a href="#" class="button radius footie small">Back</a>
+					<a href="#" class="button radius footie small">Home</a>
+				</footer>
+			</div>
+		</div>
+
+		<div id="modal--login" class="modal--login reveal-modal small" data-reveal>
+		  <h3 class="reveal-modal__title">Login</h3>
+		  <form class="loginform row">
+		  	<div class="row">
+					<div class="large-6 columns">
+						<label for="username">Username</label>
+						<input id="userid" name="userid" class="radius" type="text" placeholder="Username">
+					</div>
+					<div class="large-6 columns">
+						<label for="userpass">Password</label>
+						<input id="userpass" name="userpass" class="radius" type="password" placeholder="Password">
+					</div>
+				</div>
+				<div class="loginform--actions row">
+					<div class="small-6 columns">
+						<input type="reset" class="button radius secondary tiny" value="Cancel">
+					</div>
+					<div class="small-6 columns">
+						<input type="submit" class="button radius gawker tiny right" aria-label="submit form" value="Login">
+					</div>
+				</div>
+			</form>
+		  <a class="close-reveal-modal">&#215;</a>
+		</div>
+
+		<script src="js/vendor/jquery.js"></script>
+		<script src="js/foundation.min.js"></script>
+		<script>
+			$(document).foundation();
+		</script>
+	</body>
+</html>

@@ -1,0 +1,13 @@
+/* widgets */
+
+.widget{
+	height: 200px;
+	margin-bottom: 40px;
+}
+
+.widget--pri {
+	background-color: $widget-col1;
+}
+.widget--sec {
+	background-color: $widget-col2;
+}

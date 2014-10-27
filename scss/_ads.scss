@@ -1,0 +1,16 @@
+/* ads */
+.ad--bottom {
+	height: 150px;
+	background-color: $ad-purple;
+
+
+	@media only screen and (max-width:40.063em) {
+		margin-left: -1.25rem;
+		margin-right: -1.25rem;
+			
+	}
+
+}
+
+
+

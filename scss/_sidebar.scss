@@ -1,0 +1,17 @@
+/* sidebar */
+.sidebar__search form {
+	margin-bottom: 40px;
+}
+
+
+.sidebar__search input[type="search"], .sidebar__search .button {
+	margin-bottom: 0;
+}
+
+
+
+.sidebar__content {
+	margin-bottom: 40px;
+	height: 420px;
+	background-color: $sidecont-col;
+}

@@ -1,0 +1,87 @@
+ /* login modal */
+.reveal-modal {
+	background-image: linear-gradient(to bottom, #e5e5e5, $white);
+	border-radius: 0;
+}
+
+  .reveal-modal__title {
+    text-transform: uppercase;
+    line-height:1;
+    margin-bottom: 40px;
+  }
+
+  .loginform{
+    label{
+  		display: none;
+  	}
+
+    .button[type="reset"] {
+      font-weight: $font-weight-normal;
+    }
+
+    .button{
+      margin-bottom:0;
+    }
+
+    .loginform--actions {
+      margin-top: 23px;
+    }
+    
+  }
+
+
+
+.logintoggle {
+  text-transform:uppercase;
+}
+
+
+
+/* "orange" and footer button definition */
+button, .button {
+  &.gawker { 
+    @include button-style($bg:$gawker-color, $bg-hover:$gawker-button-bg-hover, $border-color:$gawker-button-border-color);
+    color:$white;
+  }
+
+  &.footie { 
+    @include button-style($bg:$iron, $bg-hover:$aluminum, $border-color:transparent);
+    color:$gawker-color;
+    text-transform: uppercase;
+    letter-spacing: 0.025em;
+    font-weight: normal;
+    box-shadow: none;
+    margin:0 20px;
+    @media only screen and (min-width:40.063em) {
+     margin:0 0;
+     padding-right:0.75em;
+     padding-left:0.75em;
+    }
+   
+  }
+
+  &.disabled, &[disabled] { 
+    &.gawker { @include button-style($bg:$gawker-color, $disabled:true, $bg-hover:$gawker-button-bg-hover, $border-color:$gawker-button-border-color); }
+  }
+}
+
+
+
+
+/* center label for blocks */
+.blocklabel{
+  color:$white;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: $font-weight-bold;
+  display: inline-block;
+  position: relative;
+  top: 50%;
+  left:50%;
+  transform: translateY(-50%) translateX(-50%);
+
+  .top-nav & {
+    position: absolute;
+  }
+
+}
